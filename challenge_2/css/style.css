@@ -20,6 +20,7 @@ body {
   width: 90%;
   text-align: center;
   border-radius: 15px;
+  padding: 2rem;
 }
 
 .profile-image {
@@ -43,13 +44,13 @@ h1 {
 }
 
 .bio {
-  color: #e6e6e6;  
+  color: #e6e6e6;
+  margin-bottom: 2rem;  
 }
 
 .links {
   display: flex;
-  flex-direction: column;
-  padding: 2rem;
+  flex-direction: column;  
   gap: 1rem; 
 }
 
@@ -66,4 +67,12 @@ h1 {
 .link-button:hover{
   background-color: #c2f01f;
   color:#1f1f1f
+}
+
+
+@media (max-width:480px){
+  .card{
+    width: 95%;
+    padding: 1.5rem;
+  }
 }
