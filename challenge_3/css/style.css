@@ -11,10 +11,10 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: #f4d04e;
-  color : #111111
+  color: #111111;
 }
 
-.card{
+.card {
   width: 24rem;
   height: 31.25rem;
   border: 0.0625px solid #ffffff;
@@ -23,52 +23,64 @@ body {
   font-size: 0.875rem;
 }
 
-.card-container{
+.card-container {
   padding: 1.5rem;
 }
 
-.card-image{
+.card-image {
   margin-bottom: 1.5rem;
-  border-radius: 0.625rem;  
+  border-radius: 0.625rem;
+  width: 100%;
 }
 
-.card-tag-title{
+.card-tag-title {
   border: 0.0625px solid #f4d04e;
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
   background-color: #f4d04e;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
-.card-published-date{
-  margin-top: 1.25rem;  
+.card-published-date {
+  margin-top: 1.25rem;
 }
 
-.card-title{
+.card-title {
   margin-top: 0.625rem;
   font-size: 1.5rem;
 }
 
-.card-description{
+.card-description {
   margin-top: 0.625rem;
   font-size: 1rem;
   text-align: justify;
-  color:#6b6b6b;
+  color: #6b6b6b;
   line-height: 1.5;
 }
 
-.card-footer{
+.card-footer {
   margin-top: 1.5rem;
   display: flex;
   align-items: center;
-  gap: 0.5rem; 
+  gap: 0.5rem;
 }
 
-.card-image-footer{
-  width: 2rem;  
+.card-image-footer {
+  width: 2rem;
 }
 
-.card-author-description{
+.card-author-description {
   font-weight: bold;
 }
 
+@media (max-width: 480px) {
+  .card {
+    width: 20rem;
+    height: 28rem;
+    font-size: 0.75rem;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+}
